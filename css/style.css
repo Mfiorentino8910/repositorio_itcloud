@@ -315,3 +315,201 @@ body .contenedor-principal-body{
    top: 280px;   
    }
 }
+
+
+
+
+
+
+/* ----- DESARROLLO DISPOSITIVOS TABLETS. ----- */
+@media screen and (min-width: 768px){
+/* --------------- HEADER --------------- */
+
+/* Estilo de "fondo-azul-principal" */
+.contenedor-principal-body .fondo-azul-principal{
+   background-color: rgb(1,59,130);
+   width: 100%;
+   height: 40px;
+   }
+
+
+/* Estilo del "Link-catalogo" */
+.contenedor-principal-body .fondo-azul-principal .link-catalogo{
+   color: white;
+   display: inline-block;
+   margin-bottom: 5px;
+   margin-top: 8px;
+   left: 90%;
+   text-decoration: none;
+   font-weight: bold;
+   position: fixed;
+   z-index: 2;
+   }   
+
+
+/* Estilo del link-Home-img-principal-it_cloud */
+.cloud_logo_principal{
+   margin-top: 5px;
+   margin-left: 15px;
+   width: 140px;
+   height: 95px;
+   }  
+   
+   
+/* Estilo del Menu de navegacion-principal-tablet */
+.navbar-brand{
+   font-size: 1.7rem;
+   position: relative;
+   margin-left: 5px;
+   left: 170px;
+   bottom: 70px;
+   font-weight: bold;
+   color:rgb(61,61,61);
+   }
+.navbar-toggler-icon{
+   position: relative;
+   }
+.navbar-toggler{
+   position: relative;
+   bottom: 75px;
+   z-index: 2;
+   }
+.navbar-collapse{
+   position: relative;
+   bottom: 60px;
+   left: 180px;
+   width: 30px;
+   }
+.nav-link{
+   font-size: 1.3rem;
+   font-weight: bold;
+   color:rgb(61,61,61);
+   }
+.navbar-brand:hover{
+   color: rgb(0,174,239);
+   }   
+.nav-item .nav-link:hover{
+   color:rgb(0,174,239);
+   }
+.dropdown-menu .dropdown-item:hover{
+   font-weight: bold;
+   color:rgb(0,174,239);
+   }
+   
+   
+/* Estilo del video-principal-mp4:Tablet */
+.video-principal{
+   position: relative;
+   bottom: 50px;
+   }
+.video-principal video{
+   position: absolute;
+   width: 100%;
+   box-shadow: 0px 7px 20px  black;
+   }
+   
+   
+/* Estilo Titulo-principal:Tablet  */
+.titulo-principal-cel{
+   position: absolute;
+   text-align: center;
+   font-weight: bold;
+   color:white;
+   top: 130px;
+   font-size: 3rem;
+   padding-left: 10px;
+   padding-right: 10px;
+   }   
+
+   
+/* Estilo contenedor-ExpertiseTecnology */
+.contenedor-img-cloud{
+   display: none;
+}  
+.contenedor-ExpertiseTecnology{
+  position: relative;
+  top: 500px;
+  margin-left: 50px;
+  margin-right: 60px;
+  height: 210px;
+  }
+.titulo-ExpertiseTecnology h2{
+   position: absolute;
+   margin-left: 25px;
+   font-size: 2.7rem;
+   font-weight: bold;
+   }
+.text-ExpertiseTecnology p{
+   position: absolute;
+   font-size: 1.2rem;
+   margin-top: 20px;
+   padding-left: 25px;
+   padding-right: 25px;
+   text-align: justify;
+   font-weight: bold;
+   top: 80px;
+   color:rgb(132,132,132); 
+   }    
+
+   
+/* Estilo contenedor-check */
+.contenedor-check{
+   position: relative;
+   margin-left: 70px;
+   margin-right: 30px;
+   top: 600px;
+   width: 700px;
+   height: 550px;
+   padding-left: 25px;
+   padding-right: 25px;
+
+   }
+.contenedor-check img{
+   position: relative;
+   width: 35px;
+   height: 30px;
+   }
+.contenedor-check .img-check-f1{
+   display: flex;
+   flex-direction: row;
+   left: 350px;
+   }   
+.contenedor-check .img-check-f2{
+   display: flex;
+   flex-direction: row;
+   bottom: 90px;
+   }      
+.contenedor-check h4{
+   position: relative;
+   color: rgb(33,33,33);
+   font-weight: bold;
+   bottom: 35px;
+   left: 50px;
+   }
+.contenedor-check .titulo-check-f1{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 30px;
+   left: 400px;
+   }
+.contenedor-check .titulo-check-f2{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 30px;
+   left: 90px;
+   bottom: 120px;
+   }   
+.see-all-boton input{
+   position: absolute;
+   top: 450px;
+   width: 220px;
+   height: 40px;
+   font-size: 1.3rem;
+   color: white;
+   font-weight: bold;
+   border-radius: 20px;
+   border: rgb(0,174,239);
+   background-color: rgb(0,174,239);
+   }   
+}
+
