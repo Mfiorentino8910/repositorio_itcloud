@@ -1,0 +1,317 @@
+/* Reset css */
+
+body .contenedor-principal-body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Gilroy","Open Sans","Arial",sans-serif;
+}
+
+/* ----- FIRTS MOVIL - DESARROLLO DISPOSITIVOS MOVILES: CELULARES ----- */
+@media screen and (max-width: 480px){
+/* --------------- HEADER --------------- */
+
+/* Estilo de "fondo-azul-principal" */
+.contenedor-principal-body .fondo-azul-principal{
+   background-color: rgb(1,59,130);
+   width: 100%;
+   height: 40px;
+   }
+
+
+/* Estilo del "Link-catalogo" */
+.contenedor-principal-body .fondo-azul-principal .link-catalogo{
+   color: white;
+   display: inline-block;
+   margin-bottom: 5px;
+   margin-top: 8px;
+   left: 80%;
+   text-decoration: none;
+   font-weight: bold;
+   position: fixed;
+   z-index: 2;
+   }   
+
+/* Estilo del link-Home-img-principal-it_cloud */
+.cloud_logo_principal{
+   margin-top: 5px;
+   margin-left: 8px;
+   width: 90px;
+   height: 55px;
+   }  
+.cloud_logo_principal:hover{
+   width: 92px;
+   height: 57px;
+   }   
+
+
+/* Estilo del Menu de navegacion-principal-mavil */
+.navbar-brand{
+   font-size: 1.2rem;
+   position: relative;
+   margin-left: 5px;
+   left: 100px;
+   bottom: 50px;
+   font-weight: bold;
+   color:rgb(61,61,61);
+   }
+.navbar-toggler-icon{
+   position: relative;
+   }
+.navbar-toggler{
+   position: relative;
+   bottom: 55px;
+   z-index: 2;
+   }
+.navbar-collapse{
+   position: relative;
+   bottom: 48px;
+   left: 105px;
+   width: 30px;
+   }
+.nav-link{
+   font-weight: bold;
+   color:rgb(61,61,61);
+   }
+.navbar-brand:hover{
+   color: rgb(0,174,239);
+   }   
+.nav-item .nav-link:hover{
+   color:rgb(0,174,239);
+   }
+.dropdown-menu .dropdown-item:hover{
+   font-weight: bold;
+   color:rgb(0,174,239);
+   } 
+ 
+
+/* Estilo del video-principal-mp4:Movil */
+.video-principal{
+   position: relative;
+   bottom: 50px;
+   }
+.video-principal video{
+   position: absolute;
+   width: 100%;
+   box-shadow: 0px 7px 20px  black;
+   }
+  
+/* Estilo Titulo-principal:Movil  */
+.titulo-principal-cel{
+   position: absolute;
+   text-align: center;
+   font-weight: bold;
+   color:white;
+   top: 60px;
+   font-size: 1.7rem;
+   padding-left: 10px;
+   padding-right: 10px;
+   } 
+  
+/* Estilo contenedor-ExpertiseTecnology */
+.contenedor-img-cloud{
+   display: none;
+}  
+.contenedor-ExpertiseTecnology{
+  position: relative;
+  top: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 210px;
+  }
+.titulo-ExpertiseTecnology h2{
+   position: absolute;
+   margin-left: 25px;
+   font-size: 2rem;
+   font-weight: bold;
+   }
+.text-ExpertiseTecnology p{
+   position: absolute;
+   font-size: 0.8rem;
+   margin-top: 20px;
+   padding-left: 25px;
+   padding-right: 25px;
+   text-align: justify;
+   font-weight: bold;
+   top: 80px;
+   color:rgb(132,132,132); 
+   } 
+   
+   
+/* Estilo contenedor-check */
+.contenedor-check{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   margin-left: 45px;
+   margin-right: 30px;
+   gap: 2px;
+   top: 200px;
+   width: 300px;
+   height: 450px;
+   padding-left: 25px;
+   padding-right: 25px;
+   }
+.contenedor-check img{
+   width: 35px;
+   height: 30px;
+   }
+.contenedor-check h4{
+   position: relative;
+   color: rgb(33,33,33);
+   font-weight: bold;
+   bottom: 35px;
+   left: 50px;
+   }
+.see-all-boton input{
+   width: 180px;
+   color: white;
+   font-weight: bold;
+   border-radius: 20px;
+   border: rgb(0,174,239);
+   background-color: rgb(0,174,239);
+   }
+
+/* Estilo de contenedor-carrousel-marcas */
+.contenedor-marcas{
+   position: relative;
+   width: 100%;
+   height: 250px;
+   background-color: rgb(244,244,244);
+   top: 250px;
+   }
+.contenedor-marcas h2{
+   position: absolute;
+   font-size: 2rem;
+   font-weight: bold;
+   top: 15px;
+   left: 30px;
+   }
+.carousel-inner{
+   width: 100%;
+   height: 200px;
+   position: relative;
+   top: 50px;
+   }
+#apple{
+   width: 140px;
+   position: absolute;
+   left: 130px;
+   top: 15px;
+   }
+#microsof{
+   width: 270px;
+   position: absolute;
+   left: 65px;
+   top: 55px;
+   }
+#cisco{
+   width: 220px;
+   height: 130px;
+   position: absolute;
+   left: 90px;
+   top: 30px;
+   } 
+   
+/* Estilo de titulo-best-technology */
+.titulo-best-technology{
+   position: relative;
+   width: 100%;
+   height: 150px;
+   top: 260px;
+   }
+.titulo-best-technology h2, .titulo-praise-partners-clients h2{
+   position: absolute;
+   top: 40px;
+   font-size: 1.9rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+   }
+   
+/* Estilo contenedor-img */
+.contenedor-img{
+   position: relative;
+   width: 100%;
+   top: 300px;
+   height: 1740px;
+   }
+.img-cloud-services{
+   position: relative;
+   width: 100%;
+   height: 300px;
+   bottom: 30px;
+   }   
+.img-cloud-services img, .img-voice-collaboration img, .img-managed-services img, .img-information-security img, .img-connectivity img, .img-network-engineering img{
+   width: 100%;
+   height: 300px;
+   position: absolute;
+   opacity: 3;
+   }
+.img-cloud-services h2, .img-voice-collaboration h2, .img-managed-services h2, .img-information-security h2, .img-connectivity h2, .img-network-engineering h2{
+   position: absolute;
+   left: 20px;
+   top: 50px;
+   font-size: 2.7rem;
+   font-weight: bold;
+   color: white;  
+   }
+.img-cloud-services p, .img-managed-services p, .img-information-security p, .img-connectivity p, .img-network-engineering p{
+   position: absolute;
+   padding-left: 10px;
+   padding-right: 20px;
+   left: 20px;
+   top: 160px;
+   font-size: 1.1rem;
+   font-weight: bold;
+   color: white;
+   }
+.img-cloud-services input, .img-voice-collaboration input, .img-managed-services input, .img-information-security input, .img-connectivity input, .img-network-engineering input{
+   position: absolute;
+   top: 240px;
+   left: 25px;
+   width: 130px;
+   color: white;
+   font-weight: bold;
+   border-radius: 20px;
+   border: rgb(0,174,239);
+   background-color: rgb(0,174,239);
+   }
+.img-voice-collaboration{
+   position: relative;
+   bottom: 50px;
+   } 
+.img-voice-collaboration p{
+   position: absolute;
+   padding-left: 10px;
+   padding-right: 20px;
+   left: 20px;
+   top: 160px;
+   font-size: 0.9rem;
+   font-weight: bold;
+   color: white;
+   }  
+.img-managed-services{
+   position: relative;
+   top: 240px;
+   }
+.img-information-security{
+   position: relative;
+   top: 540px;
+   }
+.img-connectivity{
+   position: relative;
+   top: 840px;
+   }
+.img-network-engineering{
+   position: relative;
+   top: 1130px;
+   }
+/* Estilo titulo-praise-partners-clients */
+.titulo-praise-partners-clients{   
+   position: relative;
+   width: 100%;
+   height: 150px;
+   top: 280px;   
+   }
+}
