@@ -339,7 +339,7 @@ body .contenedor-principal-body{
    display: inline-block;
    margin-bottom: 5px;
    margin-top: 8px;
-   left: 90%;
+   left: 93%;
    text-decoration: none;
    font-weight: bold;
    position: fixed;
@@ -415,8 +415,10 @@ body .contenedor-principal-body{
    text-align: center;
    font-weight: bold;
    color:white;
-   top: 130px;
-   font-size: 3rem;
+   top: 150px;
+   font-size: 3.9rem;
+   margin-left: 50px;
+   margin-right: 50px;
    padding-left: 10px;
    padding-right: 10px;
    }   
@@ -428,23 +430,23 @@ body .contenedor-principal-body{
 }  
 .contenedor-ExpertiseTecnology{
   position: relative;
-  top: 500px;
+  top: 650px;
   margin-left: 50px;
   margin-right: 60px;
   height: 210px;
   }
 .titulo-ExpertiseTecnology h2{
    position: absolute;
-   margin-left: 25px;
-   font-size: 2.7rem;
+   margin-left: 50px;
+   font-size: 2.8rem;
    font-weight: bold;
    }
 .text-ExpertiseTecnology p{
    position: absolute;
-   font-size: 1.2rem;
+   font-size: 1.5rem;
    margin-top: 20px;
-   padding-left: 25px;
-   padding-right: 25px;
+   padding-left: 50px;
+   padding-right: 50px;
    text-align: justify;
    font-weight: bold;
    top: 80px;
@@ -457,12 +459,11 @@ body .contenedor-principal-body{
    position: relative;
    margin-left: 70px;
    margin-right: 30px;
-   top: 600px;
+   top: 650px;
    width: 700px;
    height: 550px;
    padding-left: 25px;
    padding-right: 25px;
-
    }
 .contenedor-check img{
    position: relative;
@@ -510,6 +511,161 @@ body .contenedor-principal-body{
    border-radius: 20px;
    border: rgb(0,174,239);
    background-color: rgb(0,174,239);
+   }
+   
+   
+/* Estilo de contenedor-carrousel-marcas */
+.contenedor-marcas{
+   position: relative;
+   width: 100%;
+   height: 420px;
+   background-color: rgb(244,244,244);
+   top: 700px;
+   }
+.contenedor-marcas h2{
+   position: absolute;
+   font-size: 3.5rem;
+   font-weight: bold;
+   top: 15px;
+   left: 80px;
+   }
+.carousel-inner{
+   width: 100%;
+   height: 250px;
+   position: relative;
+   top: 110px;
+   }
+#apple{
+   width: 200px;
+   position: absolute;
+   left: 45%;
+   top: 15px;
+   }
+#microsof{
+   width: 570px;
+   position: absolute;
+   left: 25%;
+   top: 55px;
+   }
+#cisco{
+   width: 400px;
+   height: 130px;
+   position: absolute;
+   left: 35%;
+   top: 10px;
+   } 
+   
+   
+/* Estilo de titulo-best-technology */
+.titulo-best-technology{
+   position: relative;
+   width: 100%;
+   height: 280px;
+   top: 750px;
+   }
+.titulo-best-technology h2, .titulo-praise-partners-clients h2{
+   position: absolute;
+   top: 60px;
+   font-size: 4.4rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+   }
+   
+   
+/* Estilo contenedor-img */
+.contenedor-img{
+   position: relative;
+   width: 100%;
+   top: 800px;
+   height: 4200px;
+   }
+.img-cloud-services{
+   position: relative;
+   width: 100%;
+   height: 300px;
+   }   
+.img-cloud-services img, .img-voice-collaboration img, .img-managed-services img, .img-information-security img, .img-connectivity img, .img-network-engineering img{
+   width: 100%;
+   height: 700px;
+   position: absolute;
+   opacity: 3;
+   }
+.img-cloud-services h2, .img-voice-collaboration h2, .img-managed-services h2, .img-information-security h2, .img-connectivity h2, .img-network-engineering h2{
+   position: absolute;
+   left: 50px;
+   top: 50px;
+   font-size: 4.9rem;
+   letter-spacing: 3px;
+   font-weight: bold;
+   color: white;  
+   }
+.img-cloud-services p, .img-managed-services p, .img-information-security p, .img-connectivity p, .img-network-engineering p{
+   position: absolute;
+   padding-left: 10px;
+   padding-right: 20px;
+   margin-right: 70px;
+   left: 50px;
+   top: 260px;
+   font-size: 2.8rem;
+   font-weight: bold;
+   color: white;
+   }
+.img-cloud-services input, .img-voice-collaboration input, .img-managed-services input, .img-information-security input, .img-connectivity input, .img-network-engineering input{
+   position: absolute;
+   top: 450px;
+   left: 50px;
+   width: 230px;
+   font-size: 1.7rem;
+   color: white;
+   font-weight: bold;
+   border-radius: 20px;
+   border: rgb(0,174,239);
+   background-color: rgb(0,174,239);
+   }
+.img-voice-collaboration{
+   position: relative;
+   top: 400px;
+   } 
+.img-voice-collaboration p{
+   position: absolute;
+   padding-left: 10px;
+   padding-right: 20px;
+   margin-right: 70px;
+   left: 50px;
+   top: 260px;
+   font-size: 2.4rem;
+   font-weight: bold;
+   color: white;
+   }   
+.img-managed-services{
+   position: relative;
+   top: 1100px;
+   }
+.img-information-security{
+   position: relative;
+   top: 1800px;
+   }
+.img-connectivity{
+   position: relative;
+   top: 2500px;
+   }
+.img-network-engineering{
+   position: relative;
+   top: 3200px;
+   }
+
+/* Estilo titulo-praise-partners-clients */
+.titulo-praise-partners-clients{   
+   position: relative;
+   width: 100%;
+   height: 250px;
+   top: 800px; 
+   }   
+.titulo-praise-partners-clients h2{
+   margin-left: 50px;
+   margin-right: 30px;
+   bottom: 50px;
    }   
 }
 
