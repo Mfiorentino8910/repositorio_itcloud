@@ -378,7 +378,21 @@ body .contenedor-principal-body{
    font-weight: bold;
    color:rgb(0,174,239);
    margin-left: 40px;
+   }
+   
+/*  */
+.titulo-proud-help-clientele{
+   width: 100%;
+   height: 150px;
+   background-color: aquamarine;
    }   
+.titulo-proud-help-clientele h2{
+   font-size: 2.5rem;
+   font-weight: bold;
+   color: black;
+   text-align: center;
+   }
+
 }
 
 
