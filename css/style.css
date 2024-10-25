@@ -114,7 +114,7 @@ body .contenedor-principal-body{
 }  
 .contenedor-ExpertiseTecnology{
   position: relative;
-  top: 200px;
+  top: 250px;
   margin-left: 20px;
   margin-right: 20px;
   height: 210px;
@@ -146,7 +146,7 @@ body .contenedor-principal-body{
    margin-left: 45px;
    margin-right: 30px;
    gap: 2px;
-   top: 200px;
+   top: 230px;
    width: 300px;
    height: 450px;
    padding-left: 25px;
@@ -200,20 +200,20 @@ body .contenedor-principal-body{
 #apple{
    width: 120px;
    position: absolute;
-   left: 130px;
+   left: 170px;
    top: 40px;
    }
 #microsof{
    width: 270px;
    position: absolute;
-   left: 65px;
+   left: 100px;
    top: 75px;
    }
 #cisco{
    width: 220px;
    height: 130px;
    position: absolute;
-   left: 90px;
+   left: 130px;
    top: 50px;
    } 
    
@@ -316,7 +316,7 @@ body .contenedor-principal-body{
    position: relative;
    width: 100%;
    height: 120px;
-   top: 280px;  
+   top: 300px;  
    }
 .titulo-praise-partners-clients h2{
    font-size: 2rem;
@@ -330,14 +330,18 @@ body .contenedor-principal-body{
 /* Estilo Carrousel: comentarios */
 .carousel-coment{
    width: 100%;
-   height: 280px;
+   height: 300px;
    position: relative;
    top: 250px;
-   }   
+   }  
+.carousel-item-coment img{
+   width: 100%;
+   height: 200px;
+   }    
 .carousel-control-next, .carousel-control-next-coment span, .carousel-control-prev-coment span{
    position: absolute;
-   bottom: 100px;
-}
+   bottom: 100px; 
+   }
 
 /* Estilos section: we-help-partners */
 .contenedor-We-help-partners{
@@ -382,17 +386,331 @@ body .contenedor-principal-body{
    
 /*  */
 .titulo-proud-help-clientele{
+   position: relative;
+   top: 230px;
    width: 100%;
    height: 150px;
-   background-color: aquamarine;
    }   
 .titulo-proud-help-clientele h2{
-   font-size: 2.5rem;
+   position: absolute;
+   top: 20%;
+   font-size: 2.3rem;
    font-weight: bold;
-   color: black;
    text-align: center;
    }
 
+
+/* Estilo Carrousel-marcas-2 */
+.carousel-marcas-2{
+   position: relative;
+   top: 220px;
+   height: 150px;
+   width: 100%; 
+}
+.carousel-marcas-2 .carousel-inner-marcas-2{
+   position: absolute;
+   top: 0px;
+   height: 150px;
+   width: 100%;
+   }
+.carousel-inner-marcas-2 .img1-marcas-2, .carousel-inner-marcas-2 .img1-marcas-2{
+   position: absolute;
+   top: 35px;
+   width: 100%;
+   height: 80px;
+   }
+.carousel-inner-marcas-2{
+   position: absolute;
+   top: 220px;
+   }    
+.carousel-control-next-marcas .carousel-control-next-icon{
+   position: absolute;
+   left: 52%;
+   top: 130px;
+   margin-bottom: 30px;
+   border-radius: 50px;
+   width: 20px;
+   height: 20px;
+   background: linear-gradient(145deg, #cacaca, #f0f0f0);
+   box-shadow:  3px 3px 9px #bebebe,
+               -3px -3px 9px #ffffff;
+   } 
+.carousel-control-prev-marcas .carousel-control-prev-icon{
+   position: absolute;
+   left: 42%;
+   top: 130px;
+   width: 20px;
+   height: 20px;
+   margin-bottom: 30px;
+   border-radius: 50px;
+   background: linear-gradient(145deg, #cacaca, #f0f0f0);
+   box-shadow:  3px 3px 9px #bebebe,
+               -3px -3px 9px #ffffff;
+   } 
+
+
+/* Estilo check-2- */
+.contenedor-chek-2{
+   position: relative;
+   background-color: rgb(1,59,130);
+   width: 100%;
+   height: 850px;
+   top: 250px;
+   }
+.titulo-check-2 h2{
+   display: inline-block;
+   position: absolute;
+   margin-top: 50px;
+   margin-left: 20px;
+   font-size: 2.1rem;
+   font-weight: bold;
+   color: white;
+   }
+.chek-2{
+   width: 100%;
+   height: 900px;
+   display: flex;
+   flex-direction: column;
+}
+.chek-2 img{
+   position: relative;
+   left: 20px;
+   top: 150px;
+   width: 40px;
+   height: 35px;
+   }
+.chek-2 h4{
+   position: relative;
+   width: 350px;
+   font-size: 1.2rem;
+   color: white;
+   font-weight: bold;
+   top: 118px;
+   left: 80px;
+   display: inline-block;
+   }  
+
+
+/* Estilo cards-imgs-titulos-texts-buttons */
+.titulo-cloud-news h2{
+   position: relative;
+   margin-left: 30px;
+   font-size: 2.5rem;
+   font-weight: bold;
+   top: 290px;
+   }
+.card{
+   position: relative;
+   margin-left: 20px;
+   top: 360px;
+   width: 90%;
+   height: 250px;
+   }
+.card-img-cambio{
+   position: absolute;
+   bottom: 20px;
+   }   
+.card img{
+   position: relative;
+   width: 100%;
+   height: 250px;
+   margin-top: 20px;
+   }        
+.card h5{
+   font-weight: bold;
+   font-size: 1.4rem;
+   right: 30px;
+   margin-bottom: 30px;
+   }
+.card a{
+   background-color: rgb(0,174,239);
+   border-radius: 15px;
+   border: rgb(0,174,239);
+   font-size: 1.1rem;
+   font-weight: bold;
+   }
+
+
+
+/* Estilo de contenedor-img-azul */
+.contenedor-img-azul{
+   position: relative;
+   margin-bottom: 50px;
+   width: 100%;
+   height: 650px;
+   background-image: url(/img/img-contenedor-azul.jpg);
+   background-repeat: no-repeat;
+   top: 1800px;
+   } 
+.contenedor-img-azul .contenedor-azul{
+   position: absolute;
+   top: 90px;
+   background-color: rgb(1,59,130);
+   width: 260px;
+   height: 370px;
+   }
+.contenedor-azul h2{
+   color: white;
+   font-size: 1.7rem;
+   font-weight: bold;
+   margin-left: 20px;
+   margin-top: 60px;
+   } 
+.contenedor-azul p{
+   position: absolute;
+   width: 84%;
+   color: white;
+   font-weight: bold;
+   margin-left: 20px;
+   margin-top: 35px;
+   }     
+
+
+/* Footer */
+.contenedor-titulo-img-ubicacion{
+   position: relative;
+   top: 1750px;
+   width: 100%;
+   height: 100px;
+   }   
+.contenedor-titulo-img-ubicacion img{
+   position: absolute;
+   margin-top: 20px;
+   margin-left: 80px;
+   width: 40px;
+   height: 50px;
+   }  
+.contenedor-titulo-img-ubicacion h2{
+   position: absolute;
+   font-weight: bold;
+   margin-left: 130px;
+   margin-top: 30px;
+   }  
+.contenedor-ubicaciones-h3{
+   position: relative;
+   top: 1750px;
+   }   
+.contenedor-ubicaciones-h3 h3{
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 1.1rem;
+   font-weight: bold;
+   text-align: center;
+   color: rgb(136,134,132);
+   }
+
+/*  */
+.contenedor-titulo-redes{
+   position: relative;
+   width: 100%;
+   height: 220px;  
+   top: 1800px;
+   }  
+.contenedor-titulo-redes h2{
+   position: absolute;
+   font-size: 2rem;
+   font-weight: bold;
+   margin-left: 25px;
+   margin-top: 30px;
+   }   
+.contenedor-titulo-redes p{
+   position: absolute;
+   font-size: 1.1rem;
+   font-weight: bold;
+   margin-left: 25px;
+   margin-top: 90px;
+   color: rgb(136,134,132);
+   }
+.contenedor-img-redes{
+   position: relative;
+   flex-direction: row;
+   margin-left: 25px;
+   display: inline-block;
+   width: 180px;
+   height: 30px;
+   top: 160px;
+   }   
+.contenedor-img-redes img{
+   width: 30px;
+   height: 30px;
+   }       
+.img-icon-1, .img-icon-2, .img-icon-3{
+   margin-left: 10px;
+   } 
+
+
+.contenedor-email{
+   position: relative;
+   width: 100%;
+   height: 35px;
+   top: 1800px;
+   }   
+.contenedor-email .texto-email{
+   position: absolute;
+   width: 60%;
+   margin-left: 25px;
+   border-radius: 40px;
+   border-color: rgb(0,174,239);
+   }
+.contenedor-email .botton-email{
+   position: absolute;
+   font-weight: bold;
+   color: white;
+   width: 25%;
+   margin-left: 70%;
+   border-radius: 40px;
+   border: rgb(0,174,239);
+   background-color: rgb(0,174,239);
+   }
+
+.linea-footer{
+   position: relative;
+   top: 1850px;
+   }   
+.linea-footer hr{  
+   width: 90%;
+   margin-left: 5%;
+   margin-right: 5%;
+   border: 0;
+   border-top: 2px solid #999; 
+   border-bottom: 2px solid #333;
+   height:0;
+   }
+   
+/*  */
+.contenedor-rights-reserved{
+   position: relative;
+   width: 100%;
+   top: 1900px;
+   height: 450px;
+   }   
+.contenedor-rights-reserved .it-cloud{
+   position: absolute;
+   margin-left: 23%;
+   width: 250px;
+   height: 150px;
+   }
+.contenedor-rights-reserved .aftershock{
+   position: absolute;
+   margin-left: 20%;
+   width: 250px;   
+   height: 90px;
+   top: 180px;
+   }
+.contenedor-rights-reserved h2{
+   text-align: center;
+   font-size: 1.3rem;
+   font-weight: bold;
+   position: relative;
+   top: 310px;
+   }
+.contenedor-rights-reserved h3{
+   text-align: center;
+   font-size: 1.2rem;
+   font-weight: bold;
+   position: relative;
+   top: 330px;
+   }
 }
 
 
