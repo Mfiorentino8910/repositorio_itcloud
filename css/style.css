@@ -107,7 +107,16 @@ body .contenedor-principal-body{
    padding-left: 10px;
    padding-right: 10px;
    } 
-  
+
+/* Boton solo para desktop */
+.discover{
+   display: none;
+}   
+/* contenedor difuminado-cristal:solo desktop */
+.contenedor-difuminado{
+   display: none;
+}
+
 /* Estilo contenedor-ExpertiseTecnology */
 .contenedor-img-cloud{
    display: none;
@@ -250,6 +259,7 @@ body .contenedor-principal-body{
    width: 100%;
    height: 300px;
    position: absolute;
+   filter: brightness(60%);
    opacity: 3;
    }
 .img-cloud-services h2, .img-voice-collaboration h2, .img-managed-services h2, .img-information-security h2, .img-connectivity h2, .img-network-engineering h2{
@@ -354,6 +364,7 @@ body .contenedor-principal-body{
    width: 100%;
    height: 420px;
    position: absolute;
+   filter: brightness(60%);
    }   
 .titulo-We-help-partners h2{
    position: absolute;
@@ -741,7 +752,7 @@ body .contenedor-principal-body{
    display: inline-block;
    margin-bottom: 5px;
    margin-top: 8px;
-   left: 93%;
+   left: 90%;
    text-decoration: none;
    font-weight: bold;
    position: fixed;
@@ -818,13 +829,21 @@ body .contenedor-principal-body{
    font-weight: bold;
    color:white;
    top: 150px;
-   font-size: 3.9rem;
-   margin-left: 50px;
-   margin-right: 50px;
+   font-size: 3.1rem;
+   margin-left: 30px;
+   margin-right: 30px;
    padding-left: 10px;
    padding-right: 10px;
    }   
 
+/* Boton solo para desktop */
+.discover{
+   display: none;
+} 
+/* contenedor difuminado-cristal:solo desktop */
+.contenedor-difuminado{
+   display: none;
+}     
    
 /* Estilo contenedor-ExpertiseTecnology */
 .contenedor-img-cloud{
@@ -832,10 +851,10 @@ body .contenedor-principal-body{
 }  
 .contenedor-ExpertiseTecnology{
   position: relative;
-  top: 650px;
+  top: 500px;
   margin-left: 50px;
   margin-right: 60px;
-  height: 210px;
+  height: 250px;
   }
 .titulo-ExpertiseTecnology h2{
    position: absolute;
@@ -940,20 +959,20 @@ body .contenedor-principal-body{
 #apple{
    width: 200px;
    position: absolute;
-   left: 45%;
+   left: 38%;
    top: 15px;
    }
 #microsof{
    width: 570px;
    position: absolute;
-   left: 25%;
+   left: 15%;
    top: 55px;
    }
 #cisco{
    width: 400px;
    height: 130px;
    position: absolute;
-   left: 35%;
+   left: 27%;
    top: 10px;
    } 
    
@@ -980,7 +999,8 @@ body .contenedor-principal-body{
    position: relative;
    width: 100%;
    top: 800px;
-   height: 4200px;
+   height: 3600px;
+   background-color: aquamarine;
    }
 .img-cloud-services{
    position: relative;
@@ -989,7 +1009,7 @@ body .contenedor-principal-body{
    }   
 .img-cloud-services img, .img-voice-collaboration img, .img-managed-services img, .img-information-security img, .img-connectivity img, .img-network-engineering img{
    width: 100%;
-   height: 700px;
+   height: 600px;
    position: absolute;
    opacity: 3;
    }
@@ -1027,34 +1047,35 @@ body .contenedor-principal-body{
    }
 .img-voice-collaboration{
    position: relative;
-   top: 400px;
+   top: 300px;
    } 
-.img-voice-collaboration p{
+.img-voice-collaboration .text-voice-collaboration{
    position: absolute;
+   height: 150px;
    padding-left: 10px;
    padding-right: 20px;
    margin-right: 70px;
    left: 50px;
-   top: 260px;
-   font-size: 2.4rem;
+   top: 250px;
+   font-size: 1.7rem;
    font-weight: bold;
    color: white;
    }   
 .img-managed-services{
    position: relative;
-   top: 1100px;
-   }
+   top: 900px;
+   } 
 .img-information-security{
    position: relative;
-   top: 1800px;
+   top: 1500px;
    }
 .img-connectivity{
    position: relative;
-   top: 2500px;
+   top: 2080px;
    }
 .img-network-engineering{
    position: relative;
-   top: 3200px;
+   top: 2650px;
    }
 
 /* Estilo titulo-praise-partners-clients */
@@ -1062,12 +1083,1093 @@ body .contenedor-principal-body{
    position: relative;
    width: 100%;
    height: 250px;
-   top: 800px; 
+   top: 750px; 
    }   
 .titulo-praise-partners-clients h2{
    margin-left: 50px;
    margin-right: 30px;
    bottom: 50px;
    }   
+
+   
+/* Estilo Carrousel: comentarios */
+.carousel-coment{
+   width: 100%;
+   height: 300px;
+   position: relative;
+   top: 650px;
+   }  
+.carousel-item-coment img{
+   width: 100%;
+   height: 200px;
+   }    
+.carousel-control-next, .carousel-control-next-coment span, .carousel-control-prev-coment span{
+   position: absolute;
+   bottom: 100px; 
+   }
+
+/* Estilos section: we-help-partners */
+.contenedor-We-help-partners{
+   position: relative;
+   width: 100%;
+   height: 430px;
+   top: 750px;
+   }
+.img-We-help-partners img{
+   width: 100%;
+   height: 420px;
+   position: absolute;
+   }   
+.titulo-We-help-partners h2{
+   position: absolute;
+   display: inline-block;
+   color: white;
+   font-size: 2.9rem;
+   font-weight: bold;
+   top: 50px;
+   margin-left: 80px;
+   }
+.text-We-help-partners p{
+   position: absolute;
+   width: 600px;
+   text-align: justify;
+   color: white;
+   font-size: 1.4rem;
+   font-weight: bold;
+   top: 160px;
+   margin-left: 80px;
+   }   
+.link-We-help-partners h2{
+   position: absolute;
+   display: inline-block;
+   top: 370px;
+   font-size: 1.3rem;
+   font-weight: bold;
+   color:rgb(0,174,239);
+   letter-spacing: 2px;
+   margin-left: 80px;
+   }
+
+/* titulo pround-help-clientele */
+.titulo-proud-help-clientele{
+   position: relative;
+   top: 780px;
+   width: 100%;
+   height: 100px;
+   }   
+.titulo-proud-help-clientele h2{
+   position: absolute;
+   top: 20%;
+   font-size: 2.3rem;
+   font-weight: bold;
+   padding-left: 100px;
+   padding-right: 100px;
+   }
+
+/* Estilo Carrousel-marcas-2 */
+.carousel-marcas-2{
+   position: relative;
+   top: 800px;
+   height: 180px;
+   width: 100%; 
+}
+.carousel-marcas-2 .carousel-inner-marcas-2{
+   position: absolute;
+   top: 0px;
+   height: 240px;
+   width: 100%;
+   }
+.carousel-inner-marcas-2 .img1-marcas-2, .carousel-inner-marcas-2 .img1-marcas-2{
+   position: absolute;
+   top: 20px;
+   width: 100%;
+   height: 100px;
+   }
+.carousel-inner-marcas-2{
+   position: absolute;
+   top: 220px;
+   }    
+.carousel-control-next-marcas .carousel-control-next-icon{
+   position: absolute;
+   left: 52%;
+   top: 150px;
+   margin-bottom: 30px;
+   border-radius: 50px;
+   width: 20px;
+   height: 20px;
+   background: linear-gradient(145deg, #cacaca, #f0f0f0);
+   box-shadow:  3px 3px 9px #bebebe,
+               -3px -3px 9px #ffffff;
+   } 
+.carousel-control-prev-marcas .carousel-control-prev-icon{
+   position: absolute;
+   left: 42%;
+   top: 150px;
+   width: 20px;
+   height: 20px;
+   margin-bottom: 30px;
+   border-radius: 50px;
+   background: linear-gradient(145deg, #cacaca, #f0f0f0);
+   box-shadow:  3px 3px 9px #bebebe,
+               -3px -3px 9px #ffffff;
+   } 
+
+
+   /* Estilo check-2- */
+.contenedor-chek-2{
+   position: relative;
+   background-color: rgb(1,59,130);
+   width: 100%;
+   height: 850px;
+   top: 850px;
+   }
+.titulo-check-2 h2{
+   display: inline-block;
+   position: absolute;
+   margin-top: 50px;
+   margin-left: 100px;
+   font-size: 3rem;
+   font-weight: bold;
+   color: white;
+   }
+.chek-2{
+   width: 100%;
+   height: 900px;
+   display: flex;
+   flex-direction: column;
+}
+.chek-2 img{
+   position: relative;
+   left: 100px;
+   top: 150px;
+   width: 40px;
+   height: 35px;
+   }
+.chek-2 h4{
+   position: relative;
+   width: 350px;
+   font-size: 1.2rem;
+   color: white;
+   font-weight: bold;
+   top: 118px;
+   left: 150px;
+   display: inline-block;
+   }  
+
+
+   /* Estilo cards-imgs-titulos-texts-buttons */
+.titulo-cloud-news h2{
+   position: relative;
+   margin-left: 40px;
+   font-size: 3.5rem;
+   font-weight: bold;
+   top: 900px;
+   }
+.card{
+   position: relative;
+   margin-left: 20px;
+   top: 1000px;
+   width: 90%;
+   height: 250px;
+   }
+.card-img-cambio{
+   position: absolute;
+   bottom: 20px;
+   }   
+.card img{
+   position: relative;
+   width: 100%;
+   height: 300px;
+   left: 3%;
+   margin-top: 20px;
+   }        
+.card h5{
+   font-weight: bold;
+   font-size: 1.4rem;
+   right: 30px;
+   margin-bottom: 30px;
+   }
+.card a{
+   background-color: rgb(0,174,239);
+   border-radius: 15px;
+   border: rgb(0,174,239);
+   font-size: 1.1rem;
+   font-weight: bold;
+   }
+
+/* Estilo de contenedor-img-azul */
+.contenedor-img-azul{
+   position: relative;
+   margin-bottom: 50px;
+   width: 100%;
+   height: 750px;
+   background-image: url(/img/img-contenedor-azul.jpg);
+   background-repeat: no-repeat;
+   top: 2650px;
+   } 
+.contenedor-img-azul .contenedor-azul{
+   position: absolute;
+   top: 90px;
+   background-color: rgb(1,59,130);
+   width: 330px;
+   height: 400px;
+   }
+.contenedor-azul h2{
+   color: white;
+   font-size: 2.3rem;
+   font-weight: bold;
+   margin-left: 20px;
+   margin-top: 60px;
+   } 
+.contenedor-azul p{
+   position: absolute;
+   font-size: 1.3rem;
+   text-align: justify;
+   width: 85%;
+   color: white;
+   font-weight: bold;
+   margin-left: 20px;
+   margin-top: 35px;
+   }   
+
+
+/* Footer */
+.contenedor-titulo-img-ubicacion{
+   position: relative;
+   top: 2550px;
+   width: 100%;
+   height: 100px;
+   }   
+.contenedor-titulo-img-ubicacion img{
+   position: absolute;
+   margin-top: 20px;
+   margin-left: 250px;
+   width: 40px;
+   height: 50px;
+   }  
+.contenedor-titulo-img-ubicacion h2{
+   position: absolute;
+   font-weight: bold;
+   margin-left: 300px;
+   margin-top: 30px;
+   }  
+.contenedor-ubicaciones-h3{
+   position: relative;
+   top: 2550px;
+   }   
+.contenedor-ubicaciones-h3 h3{
+   margin-left: 50px;
+   margin-right: 50px;
+   font-size: 1.6rem;
+   font-weight: bold;
+   text-align: center;
+   color: rgb(136,134,132);
+   }   
+
+/* hola */
+.contenedor-titulo-redes{
+   position: relative;
+   width: 100%;
+   height: 240px;  
+   top: 2600px;
+   }  
+.contenedor-titulo-redes h2{
+   position: absolute;
+   font-size: 2.9rem;
+   font-weight: bold;
+   margin-left: 45px;
+   margin-top: 30px;
+   }   
+.contenedor-titulo-redes p{
+   position: absolute;
+   font-size: 1.4rem;
+   font-weight: bold;
+   margin-left: 45px;
+   margin-right: 20px;
+   margin-top: 100px;
+   color: rgb(136,134,132);
+   }
+.contenedor-img-redes{
+   position: relative;
+   flex-direction: row;
+   margin-left: 45px;
+   display: inline-block;
+   width: 250px;
+   height: 30px;
+   top: 185px;
+   }   
+.contenedor-img-redes img{
+   width: 50px;
+   height: 50px;
+   }       
+.img-icon-1, .img-icon-2, .img-icon-3{
+   margin-left: 10px;
+   } 
+
+
+.contenedor-email{
+   position: relative;
+   width: 100%;
+   height: 40px;
+   top: 2620px;
+   }   
+.contenedor-email .texto-email{
+   position: absolute;
+   width: 60%;
+   height: 40px;
+   margin-left: 45px;
+   border-radius: 40px;
+   border-color: rgb(0,174,239);
+   }
+.contenedor-email .botton-email{
+   position: absolute;
+   font-weight: bold;
+   color: white;
+   width: 25%;
+   height: 40px;
+   margin-left: 70%;
+   border-radius: 40px;
+   border: rgb(0,174,239);
+   background-color: rgb(0,174,239);
+   }
+
+.linea-footer{
+   position: relative;
+   top: 2650px;
+   }   
+.linea-footer hr{  
+   width: 90%;
+   margin-left: 5%;
+   margin-right: 5%;
+   border: 0;
+   border-top: 3px solid #999; 
+   border-bottom: 3px solid #333;
+   height:0;
+   }
+   
+/*  */
+.contenedor-rights-reserved{
+   position: relative;
+   width: 100%;
+   top: 2700px;
+   height: 450px;
+   }   
+.contenedor-rights-reserved .it-cloud{
+   position: absolute;
+   margin-left: 25%;
+   width: 440px;
+   height: 250px;
+   }
+.contenedor-rights-reserved .aftershock{
+   position: absolute;
+   margin-left: 34%;
+   width: 300px;   
+   height: 120px;
+   top: 270px;
+   }
+.contenedor-rights-reserved h2{
+   text-align: center;
+   font-size: 1.3rem;
+   margin-left: 5%;
+   font-weight: bold;
+   position: relative;
+   top: 430px;
+   }
+.contenedor-rights-reserved h3{
+   text-align: center;
+   margin-left: 5%;
+   margin-bottom: 2%;
+   font-size: 1.2rem;
+   font-weight: bold;
+   position: relative;
+   top: 440px;
+   }
 }
 
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1280px){
+/* --------------- HEADER --------------- */
+
+/* Estilo de "fondo-azul-principal" */
+.contenedor-principal-body .fondo-azul-principal{
+   background-color: rgb(1,59,130);
+   width: 100%;
+   height: 40px;
+   }   
+
+/* Estilo del "Link-catalogo" */
+.contenedor-principal-body .fondo-azul-principal .link-catalogo{
+   color: white;
+   display: inline-block;
+   margin-bottom: 5px;
+   margin-top: 8px;
+   left: 94%;
+   text-decoration: none;
+   font-weight: bold;
+   position: fixed;
+   z-index: 2;
+   }   
+
+/* Estilo del link-Home-img-principal-it_cloud */
+.cloud_logo_principal{
+   margin-top: 5px;
+   margin-left: 15px;
+   width: 140px;
+   height: 95px;
+   }  
+      
+/* Estilo del Menu de navegacion-principal-tablet */
+.navbar{
+   position: relative;
+}
+.navbar-brand{
+   color:rgb(61,61,61);
+   font-size: 1.5rem;
+   font-weight: bold;
+   position: absolute;
+   left: 35.5%;
+   bottom: 22.5px;
+}
+.navbar-nav{
+   bottom: 70px;
+   top: 0px;
+   left: 30%;
+   position: absolute;
+}
+.navbar-toggler-icon{
+      position: relative;
+      }
+.navbar-toggler{
+      position: relative;
+      bottom: 75px;
+      z-index: 2;
+      }
+.navbar-collapse{
+      position: relative;
+      bottom: 60px;
+      left: 180px;
+      width: 30px;
+      }
+.nav-link{
+      font-size: 1.3rem;
+      font-weight: bold;
+      color:rgb(61,61,61);
+      }
+.dropdown .dropdown-menu{
+   position: relative;
+   color:rgb(61,61,61);
+   top: 50px;
+}      
+.navbar-brand:hover{
+      color: rgb(0,174,239);
+      }   
+.nav-item .nav-link:hover{
+      color:rgb(0,174,239);
+      }
+.dropdown-menu .dropdown-item:hover{
+      font-weight: bold;
+      color:rgb(0,174,239);
+      }
+      
+   
+/* Estilo del video-principal-mp4:Desktop */
+.video-principal{
+   position: relative;
+   bottom: 0px;
+   }
+.video-principal video{
+   position: absolute;
+   width: 100%;
+   box-shadow: 0px 7px 20px  black;
+   }     
+
+/* Estilo Titulo-principal:Desktop  */
+.titulo-principal-cel{
+   position: absolute;
+   text-align: center;
+   font-weight: bold;
+   color:white;
+   top: 65px;
+   font-size: 5.1rem;
+   margin-left: 30px;
+   margin-right: 30px;
+   padding-left: 10px;
+   padding-right: 10px;
+   }
+/* Estilo boton desktop */
+.discover{
+   position: absolute;
+   left: 42.5%;
+   top: 315px;
+   display: block;
+   width: 250px;
+   height: 70px;
+   }
+.discover input{
+   position: absolute;
+   color: white;
+   font-size: 1.7rem;
+   font-weight: bold;
+   border-radius: 40px;
+   border: rgb(0,174,239);
+   background-color: rgb(0,174,239);
+   width: 250px;
+   height: 70px;
+   }   
+.contenedor-difuminado{
+   position: absolute;
+   display: block;
+   margin-right: 5%;
+   margin-left: 5%;
+   background-color: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(10px);
+   border: solid 1px rgba(255, 255, 255, 0.5);
+   border-radius: 3px;
+   width: 90%;
+   height: 300px;
+   top: 420px;
+   }
+.contenedor-difuminado h3{
+   color: white;
+   font-size: 2rem;
+   margin-top: 30px;
+   margin-left: 20px;
+   }
+
+.contenedor-difuminado h4{
+   color: rgb(136,142,163);
+   margin-top: 0px;
+   margin-left: 20px;
+   margin-right: 60px;
+   }   
+.contenedor-difuminado-img{
+   display: flex;
+   flex-direction: row;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.contenedor-difuminado-img img{
+   width: 80px;
+   height: 50px;
+}
+.contenedor-difuminado-img h4{
+   font-weight: bold;
+   color: white;
+}
+
+
+/* Estilo contenedor-ExpertiseTecnology */
+.contenedor-img-cloud{
+   display: none;
+}  
+.contenedor-ExpertiseTecnology{
+  position: relative;
+  top: 800px;
+  margin-left: 50px;
+  margin-right: 60px;
+  height: 250px;
+  background-color: yellow;
+  }
+.titulo-ExpertiseTecnology h2{
+   position: absolute;
+   margin-left: 50px;
+   font-size: 2.8rem;
+   font-weight: bold;
+   }
+.text-ExpertiseTecnology p{
+   position: absolute;
+   font-size: 1.5rem;
+   margin-top: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+   text-align: justify;
+   font-weight: bold;
+   top: 80px;
+   color:rgb(132,132,132); 
+   }  
+   
+/* Estilo contenedor-check */
+.contenedor-check{
+   position: relative;
+   margin-left: 70px;
+   margin-right: 30px;
+   top: 800px;
+   width: 1150px;
+   height: 900px;
+   padding-left: 25px;
+   padding-right: 25px;
+   background-color: aqua;
+   }
+.contenedor-check img{
+   position: relative;
+   width: 85px;
+   height: 60px;
+   }
+.contenedor-check .img-check-f1{
+   display: flex;
+   flex-direction: row;
+   top: 60px;
+   left: 580px;
+   }   
+.contenedor-check .img-check-f2{
+   display: flex;
+   flex-direction: row;
+   bottom: 80px;
+   }      
+.contenedor-check h4{
+   position: relative;
+   font-size: 2.5rem;
+   color: rgb(33,33,33);
+   font-weight: bold;
+   bottom: 0px;
+   }
+.contenedor-check .titulo-check-f1{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 35px;
+   left: 720px;
+   }
+.contenedor-check .titulo-check-f2{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 30px;
+   left: 130px;
+   bottom: 140px;
+   }   
+.see-all-boton input{
+   position: absolute;
+   top: 850px;
+   width: 280px;
+   height: 50px;
+   font-size: 1.7rem;
+   color: white;
+   font-weight: bold;
+   border-radius: 20px;
+   border: rgb(0,174,239);
+   background-color: rgb(0,174,239);
+   }   
+
+
+/* Estilo de contenedor-carrousel-marcas */
+.contenedor-marcas{
+   position: relative;
+   width: 100%;
+   height: 420px;
+   background-color: rgb(244,244,244);
+   top: 850px;
+   background-color: wheat;
+   }
+.contenedor-marcas h2{
+   position: absolute;
+   font-size: 3.5rem;
+   font-weight: bold;
+   top: 15px;
+   left: 80px;
+   }
+.carousel-inner{
+   width: 100%;
+   height: 250px;
+   position: relative;
+   top: 110px;
+   }
+#apple{
+   width: 200px;
+   position: absolute;
+   left: 45%;
+   top: 15px;
+   }
+#microsof{
+   width: 570px;
+   position: absolute;
+   left: 32%;
+   top: 55px;
+   }
+#cisco{
+   width: 400px;
+   height: 130px;
+   position: absolute;
+   left: 37%;
+   top: 10px;
+   } 
+
+
+/* Estilo de titulo-best-technology */
+.titulo-best-technology{
+   position: relative;
+   width: 100%;
+   height: 280px;
+   top: 860px;
+   background-color: violet;
+   }
+.titulo-best-technology h2, .titulo-praise-partners-clients h2{
+   position: absolute;
+   top: 60px;
+   font-size: 5.5rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+   }   
+
+.carousel-control-prev-icon{
+   position: absolute;
+   width: 50px;
+   height: 70px;
+   top: 90%;
+}   
+.carousel-control-next-icon{
+   position: absolute;
+   width: 50px;
+   height: 70px;
+   top: 150%;
+}
+
+
+/* Estilo contenedor-img */
+.contenedor-img{
+   position: relative;
+   width: 100%;
+   top: 900px;
+   height: 3600px;
+   background-color: aquamarine;
+   }
+.img-cloud-services{
+   position: relative;
+   width: 100%;
+   height: 300px;
+   }   
+.img-cloud-services img, .img-voice-collaboration img, .img-managed-services img, .img-information-security img, .img-connectivity img, .img-network-engineering img{
+   width: 100%;
+   height: 600px;
+   position: absolute;
+   filter: brightness(60%);
+   opacity: 3;
+   }
+.img-cloud-services h2, .img-voice-collaboration h2, .img-managed-services h2, .img-information-security h2, .img-connectivity h2, .img-network-engineering h2{
+   position: absolute;
+   left: 50px;
+   top: 50px;
+   font-size: 4.9rem;
+   letter-spacing: 3px;
+   font-weight: bold;
+   color: white;  
+   }
+.img-cloud-services p, .img-managed-services p, .img-information-security p, .img-connectivity p, .img-network-engineering p{
+   position: absolute;
+   padding-left: 10px;
+   padding-right: 20px;
+   margin-right: 70px;
+   width: 87%;
+   left: 50px;
+   top: 260px;
+   font-size: 2.8rem;
+   font-weight: bold;
+   color: white;
+   }
+.img-cloud-services input, .img-voice-collaboration input, .img-managed-services input, .img-information-security input, .img-connectivity input, .img-network-engineering input{
+   position: absolute;
+   top: 450px;
+   left: 50px;
+   width: 230px;
+   font-size: 1.7rem;
+   color: white;
+   font-weight: bold;
+   border-radius: 20px;
+   border: rgb(0,174,239);
+   background-color: rgb(0,174,239);
+   }
+.img-voice-collaboration{
+   position: relative;
+   top: 300px;
+   } 
+.img-voice-collaboration .text-voice-collaboration{
+   position: absolute;
+   height: 150px;
+   padding-left: 10px;
+   padding-right: 20px;
+   margin-right: 70px;
+   left: 50px;
+   top: 250px;
+   font-size: 2.3rem;
+   font-weight: bold;
+   color: white;
+   }   
+.img-managed-services{
+   position: relative;
+   top: 900px;
+   } 
+.img-information-security{
+   position: relative;
+   top: 1500px;
+   }
+.img-connectivity{
+   position: relative;
+   top: 2080px;
+   }
+.img-network-engineering{
+   position: relative;
+   top: 2650px;
+   }   
+
+
+/* Estilo titulo-praise-partners-clients */
+.titulo-praise-partners-clients{   
+   position: relative;
+   width: 100%;
+   height: 250px;
+   top: 850px; 
+   background-color: tomato;
+   }   
+.titulo-praise-partners-clients h2{
+   margin-left: 50px;
+   margin-right: 30px;
+   top: 30px;
+   }   
+
+
+/* Estilo Carrousel: comentarios */
+.carousel-coment{
+   width: 100%;
+   height: 400px;
+   position: relative;
+   top: 950px;
+   background-color: whitesmoke;
+   }  
+.carousel-item-coment img{
+   position: relative;
+   width: 70%;
+   height: 250px;
+   }    
+.carousel-control-prev-coment span{
+   position: absolute;
+   top: 50%; 
+   }   
+.carousel-control-next-coment span{
+   position: absolute; 
+   top: 70%;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* Estilos section: we-help-partners */
+.contenedor-We-help-partners{
+   position: relative;
+   width: 100%;
+   height: 430px;
+   top: 1000px;
+   }
+.img-We-help-partners img{
+   position: absolute;
+   width: 100%;
+   height: 850px;
+   filter: brightness(60%);
+   background-color: aquamarine;
+   }   
+.titulo-We-help-partners h2{
+   position: absolute;
+   display: inline-block;
+   color: white;
+   font-size: 3.8rem;
+   font-weight: bold;
+   top: 50px;
+   margin-left: 80px;
+   }
+.text-We-help-partners p{
+   position: absolute;
+   width: 550px;
+   text-align: justify;
+   color: white;
+   font-size: 1.7rem;
+   letter-spacing: 2px;
+   font-weight: bold;
+   top: 240px;
+   margin-left: 80px;
+   }   
+.link-We-help-partners h2{
+   position: absolute;
+   display: inline-block;
+   top: 750px;
+   font-size: 1.3rem;
+   color:rgb(0,174,239);
+   letter-spacing: 2px;
+   margin-left: 80px;
+   }   
+
+
+/* titulo pround-help-clientele */
+.titulo-proud-help-clientele{
+   position: relative;
+   top: 1450px;
+   width: 100%;
+   height: 100px;
+   text-align: center;
+   background-color: teal;
+   }   
+.titulo-proud-help-clientele h2{
+   position: absolute;
+   top: 10%;
+   font-size: 4rem;
+   font-weight: bold;
+   }
+
+
+/* Estilo Carrousel-marcas-2 */
+.carousel-marcas-2{
+   position: relative;
+   top: 1500px;
+   height: 180px;
+   width: 100%; 
+}
+.visually-hidden-marcas{
+   display: none;
+}
+.carousel-marcas-2 .carousel-inner-marcas-2{
+   position: absolute;
+   top: 0px;
+   height: 240px;
+   width: 100%;
+   }
+.carousel-inner-marcas-2 .img1-marcas-2, .carousel-inner-marcas-2 .img1-marcas-2{
+   position: absolute;
+   top: 20px;
+   width: 100%;
+   height: 100px;
+   }
+.carousel-inner-marcas-2{
+   position: absolute;
+   top: 220px;
+   }    
+.carousel-control-next-marcas .carousel-control-next-icon{
+   position: absolute;
+   left: 52%;
+   top: 150px;
+   margin-bottom: 30px;
+   border-radius: 50px;
+   width: 20px;
+   height: 20px;
+   background: linear-gradient(145deg, #cacaca, #f0f0f0);
+   box-shadow:  3px 3px 9px #bebebe,
+               -3px -3px 9px #ffffff;
+   } 
+.carousel-control-prev-marcas .carousel-control-prev-icon{
+   position: absolute;
+   left: 42%;
+   top: 150px;
+   width: 20px;
+   height: 20px;
+   margin-bottom: 30px;
+   border-radius: 50px;
+   background: linear-gradient(145deg, #cacaca, #f0f0f0);
+   box-shadow:  3px 3px 9px #bebebe,
+               -3px -3px 9px #ffffff;
+   } 
+
+
+   /* Estilo check-2- */
+   .contenedor-chek-2{
+      position: relative;
+      background-color: rgb(1,59,130);
+      width: 100%;
+      height: 850px;
+      top: 1550px;
+      }
+   .titulo-check-2 h2{
+      display: inline-block;
+      position: absolute;
+      margin-top: 50px;
+      margin-left: 100px;
+      font-size: 3rem;
+      font-weight: bold;
+      color: white;
+      }
+   .chek-2{
+      width: 100%;
+      height: 900px;
+      display: flex;
+      flex-direction: column;
+   }
+   .chek-2 img{
+      position: relative;
+      left: 100px;
+      top: 150px;
+      width: 40px;
+      height: 35px;
+      }
+   .chek-2 h4{
+      position: relative;
+      width: 350px;
+      font-size: 1.2rem;
+      color: white;
+      font-weight: bold;
+      top: 118px;
+      left: 150px;
+      display: inline-block;
+      }    
+      
+      
+   /* Estilo cards-imgs-titulos-texts-buttons */
+   .titulo-cloud-news h2{
+      position: relative;
+      margin-left: 40px;
+      font-size: 3.5rem;
+      font-weight: bold;
+      top: 1700px;
+      background-color: springgreen;
+      }
+   .card{
+      position: relative;
+      top: 1800px;
+      width: 90%;
+      height: 250px;
+      background-color: brown;
+      }
+   .card-img-cambio{
+      position: absolute;
+      bottom: 20px;
+      }   
+   .card img{
+      position: relative;
+      width: 100%;
+      height: 300px;
+      left: 3%;
+      margin-top: 20px;
+      }        
+   .card h5{
+      font-weight: bold;
+      font-size: 1.8rem;
+      right: 30px;
+      margin-bottom: 30px;
+      }
+   .card a{
+      position: absolute;
+      background-color: rgb(0,174,239);
+      border-radius: 20px;
+      top: 155%;
+      left: 3%;
+      border: rgb(0,174,239);
+      font-size: 1.1rem;
+      font-weight: bold;
+      }      
+}
+
+
+
+
+
+
+/* ESTE CODIGO ES RESPONSIVE: APLICADO PARA UN CONTENEDOR DE IMG  */
+/* .div-contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+} */
