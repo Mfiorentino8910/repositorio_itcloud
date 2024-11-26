@@ -805,10 +805,9 @@ body .contenedor-principal-body{
 .navbar-collapse{
    position: relative;
    display: inline-block;
-   width: 300px !important;
+   width: 300px;
    bottom: 60px;
    left: 180px;
-
    }
 .nav-link{
    display: inline-block;
@@ -827,7 +826,7 @@ body .contenedor-principal-body{
    width: 70%;
    color:rgb(0,174,239);
    }
-.dropdown-menu{
+.dropdown-menu, .dropdown-divider{
    width: 50%;
 }
 
