@@ -501,6 +501,12 @@ body .contenedor-principal-body{
    display: inline-block;
    }  
 
+.chek-2-desktop-1{
+   display: none;
+}   
+.chek-2-desktop-2{
+   display: none;
+}
 
 /* Estilo cards-imgs-titulos-texts-buttons */
 .titulo-cloud-news h2{
@@ -749,10 +755,11 @@ body .contenedor-principal-body{
 /* Estilo del "Link-catalogo" */
 .contenedor-principal-body .fondo-azul-principal .link-catalogo{
    color: white;
+   font-size: 1.3rem;
    display: inline-block;
    margin-bottom: 5px;
-   margin-top: 8px;
-   left: 90%;
+   margin-top: 3px;
+   left: 88%;
    text-decoration: none;
    font-weight: bold;
    position: fixed;
@@ -760,7 +767,6 @@ body .contenedor-principal-body{
    }   
 
 
-/* Estilo del link-Home-img-principal-it_cloud */
 .cloud_logo_principal{
    margin-top: 5px;
    margin-left: 15px;
@@ -770,6 +776,16 @@ body .contenedor-principal-body{
    
    
 /* Estilo del Menu de navegacion-principal-tablet */
+.navbar-nav{
+   width: 45%;
+}
+.container-fluid{
+   width: 90%;
+}
+.collapse ul li{
+   width: 450px;
+}
+
 .navbar-brand{
    font-size: 1.7rem;
    position: relative;
@@ -785,15 +801,17 @@ body .contenedor-principal-body{
 .navbar-toggler{
    position: relative;
    bottom: 75px;
-   z-index: 2;
    }
 .navbar-collapse{
    position: relative;
+   display: inline-block;
+   width: 300px !important;
    bottom: 60px;
    left: 180px;
-   width: 30px;
+
    }
 .nav-link{
+   display: inline-block;
    font-size: 1.3rem;
    font-weight: bold;
    color:rgb(61,61,61);
@@ -806,8 +824,13 @@ body .contenedor-principal-body{
    }
 .dropdown-menu .dropdown-item:hover{
    font-weight: bold;
+   width: 70%;
    color:rgb(0,174,239);
    }
+.dropdown-menu{
+   width: 50%;
+}
+
    
    
 /* Estilo del video-principal-mp4:Tablet */
@@ -844,11 +867,11 @@ body .contenedor-principal-body{
 .contenedor-difuminado{
    display: none;
 }     
-   
 /* Estilo contenedor-ExpertiseTecnology */
 .contenedor-img-cloud{
    display: none;
 }  
+
 .contenedor-ExpertiseTecnology{
   position: relative;
   top: 500px;
@@ -871,7 +894,7 @@ body .contenedor-principal-body{
    text-align: justify;
    font-weight: bold;
    top: 80px;
-   color:rgb(132,132,132); 
+   color:rgb(132,132,132);
    }    
 
    
@@ -899,14 +922,15 @@ body .contenedor-principal-body{
 .contenedor-check .img-check-f2{
    display: flex;
    flex-direction: row;
-   bottom: 90px;
+   bottom: 99px;
    }      
 .contenedor-check h4{
    position: relative;
    color: rgb(33,33,33);
    font-weight: bold;
-   bottom: 35px;
+   bottom: 30px;
    left: 50px;
+   width: 150px;
    }
 .contenedor-check .titulo-check-f1{
    display: flex;
@@ -923,7 +947,7 @@ body .contenedor-principal-body{
    }   
 .see-all-boton input{
    position: absolute;
-   top: 450px;
+   top: 490px;
    width: 220px;
    height: 40px;
    font-size: 1.3rem;
@@ -1000,7 +1024,6 @@ body .contenedor-principal-body{
    width: 100%;
    top: 800px;
    height: 3600px;
-   background-color: aquamarine;
    }
 .img-cloud-services{
    position: relative;
@@ -1011,7 +1034,7 @@ body .contenedor-principal-body{
    width: 100%;
    height: 600px;
    position: absolute;
-   opacity: 3;
+   filter: brightness(60%);
    }
 .img-cloud-services h2, .img-voice-collaboration h2, .img-managed-services h2, .img-information-security h2, .img-connectivity h2, .img-network-engineering h2{
    position: absolute;
@@ -1033,7 +1056,7 @@ body .contenedor-principal-body{
    font-weight: bold;
    color: white;
    }
-.img-cloud-services input, .img-voice-collaboration input, .img-managed-services input, .img-information-security input, .img-connectivity input, .img-network-engineering input{
+.img-cloud-services input, .img-voice-collaboration input, .img-managed-services input, .img-information-security input, .img-connectivity input{
    position: absolute;
    top: 450px;
    left: 50px;
@@ -1045,6 +1068,18 @@ body .contenedor-principal-body{
    border: rgb(0,174,239);
    background-color: rgb(0,174,239);
    }
+.img-network-engineering input{
+   position: absolute;
+   top: 500px;
+   left: 50px;
+   width: 230px;
+   font-size: 1.7rem;
+   color: white;
+   font-weight: bold;
+   border-radius: 20px;
+   border: rgb(0,174,239);
+   background-color: rgb(0,174,239);
+}   
 .img-voice-collaboration{
    position: relative;
    top: 300px;
@@ -1118,6 +1153,7 @@ body .contenedor-principal-body{
 .img-We-help-partners img{
    width: 100%;
    height: 420px;
+   filter: brightness(60%);
    position: absolute;
    }   
 .titulo-We-help-partners h2{
@@ -1215,7 +1251,7 @@ body .contenedor-principal-body{
    } 
 
 
-   /* Estilo check-2- */
+/* Estilo check-2- */
 .contenedor-chek-2{
    position: relative;
    background-color: rgb(1,59,130);
@@ -1255,9 +1291,16 @@ body .contenedor-principal-body{
    left: 150px;
    display: inline-block;
    }  
+.chek-2-desktop-1{
+   display: none;
+   }   
+.chek-2-desktop-2{
+   display: none;
+   }
 
 
-   /* Estilo cards-imgs-titulos-texts-buttons */
+
+/* Estilo cards-imgs-titulos-texts-buttons */
 .titulo-cloud-news h2{
    position: relative;
    margin-left: 40px;
@@ -1333,7 +1376,7 @@ body .contenedor-principal-body{
    }   
 
 
-/* Footer */
+/* Footer: Tablet */
 .contenedor-titulo-img-ubicacion{
    position: relative;
    top: 2550px;
@@ -1366,7 +1409,7 @@ body .contenedor-principal-body{
    color: rgb(136,134,132);
    }   
 
-/* hola */
+/* contenedor redes sociales-links */
 .contenedor-titulo-redes{
    position: relative;
    width: 100%;
@@ -1411,7 +1454,7 @@ body .contenedor-principal-body{
    position: relative;
    width: 100%;
    height: 40px;
-   top: 2620px;
+   top: 260px;
    }   
 .contenedor-email .texto-email{
    position: absolute;
@@ -1432,10 +1475,10 @@ body .contenedor-principal-body{
    border: rgb(0,174,239);
    background-color: rgb(0,174,239);
    }
-
+/* Linea de separacion */
 .linea-footer{
    position: relative;
-   top: 2650px;
+   top: 270px;
    }   
 .linea-footer hr{  
    width: 90%;
@@ -1447,11 +1490,11 @@ body .contenedor-principal-body{
    height:0;
    }
    
-/*  */
+/* contenedor con logo y derechos reservados */
 .contenedor-rights-reserved{
    position: relative;
    width: 100%;
-   top: 2700px;
+   top: 270px;
    height: 450px;
    }   
 .contenedor-rights-reserved .it-cloud{
@@ -2075,30 +2118,39 @@ body .contenedor-principal-body{
    } 
 
 
-   /* Estilo check-2- */
-   .contenedor-chek-2{
-      position: relative;
-      background-color: rgb(1,59,130);
-      width: 100%;
-      height: 850px;
-      top: 1550px;
-      }
-   .titulo-check-2 h2{
-      display: inline-block;
-      position: absolute;
-      margin-top: 50px;
-      margin-left: 100px;
-      font-size: 3rem;
-      font-weight: bold;
-      color: white;
-      }
-   .chek-2{
-      width: 100%;
-      height: 900px;
-      display: flex;
-      flex-direction: column;
+/* Estilo check-2- */
+.contenedor-chek-2{
+   position: relative;
+   background-color: rgb(1,59,130);
+   width: 100%;
+   height: 850px;
+   top: 1550px;
    }
-   .chek-2 img{
+.titulo-check-2 h2{
+   display: inline-block;
+   position: absolute;
+   margin-top: 50px;
+   margin-left: 100px;
+   font-size: 3rem;
+   font-weight: bold;
+   color: white;
+   }
+
+
+/* ----------------------------------------------- */
+.chek-2{
+   position: relative;
+   width: 50%;
+   height: 850px;
+   display: flex;
+   background-color: yellowgreen;
+   }
+
+
+
+
+
+   /* .chek-2 img{
       position: relative;
       left: 100px;
       top: 150px;
@@ -2114,7 +2166,7 @@ body .contenedor-principal-body{
       top: 118px;
       left: 150px;
       display: inline-block;
-      }    
+      }     */
       
       
    /* Estilo cards-imgs-titulos-texts-buttons */
